@@ -1,0 +1,23 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "npm install",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": "npm start"
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "all-tests-pass-week-5.js"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "5000": {
+      "label": "Tests",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [5000]
+}
