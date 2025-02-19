@@ -29,7 +29,7 @@ describe("Week 5 - Roman Numeral Interpreter", function() {
     });
 
     it ("Should handle malformed input", function() {
-       // assert.equal(romanNumeralInterpreter('i'), 1, "Numbers don't have to be capitalized.");
+       assert.equal(romanNumeralInterpreter('i'), 1, "Numbers don't have to be capitalized.");
        assert.throws(() => {
            romanNumeralInterpreter("b");
        }, "Invalid Input");
