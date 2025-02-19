@@ -8,9 +8,12 @@ See more at [https://alltestspass.com/week-5-roman-numerals/](https://alltestspa
 
 1. Clone this repo to your local machine.
 2. Install dependencies  
-        `npm install` or `yarn`
+   `npm install` or `yarn`
 3. Run local web server  
-        `npm start` or `yarn start`
+   `npm run start` or `yarn start`
+
+   or run local cli interface  
+   `npm run cli-test`
 
 ### Use GitHub Codespaces
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fillerwriter/alltestspass-week5?quickstart=1)
