@@ -39,20 +39,20 @@ describe("Week 5 - Roman Numeral Interpreter", function() {
     });
 
     it ("Should handle common subtractive notions", function() {
-        assert.equal(romanNumeralInterpreter("IV", 4), "IV == 4");
-        assert.equal(romanNumeralInterpreter("IX", 9), "IX == 9");
-        assert.equal(romanNumeralInterpreter("XL", 40), "XL == 40");
-        assert.equal(romanNumeralInterpreter("XC", 90), "XC == 90");
-        assert.equal(romanNumeralInterpreter("CD", 400), "CD == 400");
-        assert.equal(romanNumeralInterpreter("CM", 900), "CM == 900");
+        assert.equal(romanNumeralInterpreter("IV"), 4, "IV == 4");
+        assert.equal(romanNumeralInterpreter("IX"), 9, "IX == 9");
+        assert.equal(romanNumeralInterpreter("XL"), 40, "XL == 40");
+        assert.equal(romanNumeralInterpreter("XC"), 90, "XC == 90");
+        assert.equal(romanNumeralInterpreter("CD"), 400, "CD == 400");
+        assert.equal(romanNumeralInterpreter("CM"), 900, "CM == 900");
     });
 
     it ("Should handle complex numbers", function() {
-        assert.equal(romanNumeralInterpreter("III", 3), "III == 3");
-        assert.equal(romanNumeralInterpreter("XXVII", 27), "XXVII == 27");
-        assert.equal(romanNumeralInterpreter("XXXVIII", 38), "XXXVII == 38");
-        assert.equal(romanNumeralInterpreter("XLI", 41), "XLI == 41");
-        assert.equal(romanNumeralInterpreter("XCIX", 99), "XCIX == 99");
-        assert.equal(romanNumeralInterpreter("MCMLXXXIII", 1983), "MCMLXXXIII == 1983");
+        assert.equal(romanNumeralInterpreter("III"), 3, "III == 3");
+        assert.equal(romanNumeralInterpreter("XXVII"), 27, "XXVII == 27");
+        assert.equal(romanNumeralInterpreter("XXXVIII"), 38, "XXXVII == 38");
+        assert.equal(romanNumeralInterpreter("XLI"), 41, "XLI == 41");
+        assert.equal(romanNumeralInterpreter("XCIX"), 99, "XCIX == 99");
+        assert.equal(romanNumeralInterpreter("MCMLXXXIII"), 1983, "MCMLXXXIII == 1983");
     });
 });
